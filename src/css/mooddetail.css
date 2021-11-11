@@ -1,0 +1,287 @@
+.mood-detail-header-img {
+
+    width: 7em!important;
+}
+
+.mooddetail-header-row {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    padding-left:15%;
+}
+
+.mooddetail-header-row .moodboard-text {
+    width: initial!important;
+}
+
+.mood-detail-container {
+    background-color: #E5E5E5!important;
+    /* height: 100vh!important; */
+}
+
+.mooddetail-head>h2 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 500;
+    margin-left: 10%;
+    margin-top: 30px;
+    /* font-size: 24px; */
+    line-height: 33px;
+}
+
+.row>.exercise-card {
+    margin-top: 30px;
+    width: 448px;
+    max-width: 70%;
+height: max-content;
+    margin-left: 10%;
+  
+    background-color: white;
+    background: #FFFFFF;
+box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.25);
+border-radius: 30px;
+padding: 30px;
+padding-left: 30px;
+padding-right: 30px;
+transition: transform .2s; 
+}
+
+.exercise-card:hover {
+    transform: scale(1.05)!important;
+}
+
+.exercise-card-title {
+    font-family: Open Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 1rem;
+line-height: 25px;
+color: rgba(0, 0, 0, 0.8);
+}
+
+.exercise-card img {
+    width: 157px;
+height: 157px;
+object-fit: cover;
+}
+.exercise-card .row {
+margin-bottom: 10px;
+}
+.exercise-card col {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
+}
+
+.exercise-card-body .col-md-6 {
+    padding-top: 20px!important;
+    overflow-wrap: anywhere;
+}
+
+.mooddetail-header-row .mood-back {
+    width: 50px!important;
+    height:50px;
+
+    background-color: white;
+    border-radius: 999px;
+    margin-left: 10%;
+    margin-right: 30px;
+}
+
+.row.moodpost-container {
+    margin-left: 10%;
+    margin-right: 10%;
+    /* height: 999px; */
+}
+
+.mood-post-card {
+    background-color: white;
+    width: 100%;
+    min-height: 200px;
+    margin:30px;
+    padding:30px
+}
+
+.mood-post-row-1 {
+    display: flex;
+    flex-direction: row;
+    height: max-content;
+    align-items: center;
+    margin-top: 10px!important;
+    margin-bottom: 20px!important;
+
+}
+
+.mood-avatar {
+    background-color: grey;
+    width: 40px;
+    height: 40px;
+    border-radius: 9999px;
+    margin-right: 10px;
+}
+
+
+.mood-post-row-2 {
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    min-height: 60px;
+    /* line-height: 22px; */
+    
+    color: rgba(0, 0, 0, 0.6);
+    
+}    
+
+.mood-post-row-3{
+    display: flex;
+    flex-direction: row;
+    font-family: Open Sans;
+font-style: normal;
+/* font-weight: 600; */
+/* font-size: 16px; */
+line-height: 22px;
+/* identical to box height */
+
+
+color:grey;
+}
+
+.mood-post-row-3>div {
+    margin-right: 5px;
+}
+
+.respond-bar {
+    display: flex;
+    flex-direction: row;
+}
+
+.respond-icon {
+    font-size: 25px;
+    margin-right: 10px;
+    transition: transform .2s; 
+}
+
+.respond-icon:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.mood-post-row-4 {
+    margin-top: 10px!important;
+}
+
+.mood-post-row-4>input {
+    width: 100%;
+    border-radius: 20px;
+    border: 2px solid #98AECA;
+    color: #98AECA;
+    box-sizing: border-box;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.mood-post-row-4>input:focus-visible {
+    outline: transparent;
+}
+
+.mood-post-row-5  {
+    margin-top: 10px!important;
+    margin-left: 5px!important;
+font-style: normal;
+font-weight: normal;
+display: flex;
+flex-direction: row;
+
+align-items: center;
+
+line-height: 22px;
+/* identical to box height */
+
+
+color: gray;
+}
+
+.refresh-ico {
+    width: 25px;
+    transition: transform .2s;
+}
+
+.comment-ico {
+    position: absolute;
+    right: 60px;
+    margin-top: 7px;
+    width: 20px;
+    transition: transform .2s;
+}
+
+.comment-ico:hover, .refresh-ico:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.mood-post-collapse {
+    margin-top: 15px!important;
+    font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 22px;
+/* identical to box height */
+
+text-decoration-line: underline;
+
+color: rgba(152, 174, 202, 0.8);
+}
+
+.mood-post-collapse:hover {
+    cursor: pointer;
+}
+
+.mood-post-row-5 input {
+    margin-right: 10px;
+}
+
+.editor-container {
+    min-height: 200px;
+    /* margin-bottom: 300px; */
+    display: flex;
+    justify-content: center;
+}
+
+/* .editor-container .sun-editor,.editor-container .se-wrapper {
+    height: 100%!important;
+} */
+
+.name-selc {
+    text-align: center;
+}
+.submission {
+    text-align: center!important;
+    display: flex!important;
+    justify-content: center;
+    margin-top: 30px!important;
+    padding-bottom: 200px!important;
+}
+
+.submission button {
+    width: 150px;
+    text-align: center;
+}
+
+.editor-title {
+    padding-left: 12%;
+    padding-right: 12%;
+    margin-bottom: 30px;
+}
+
+.editor-title  input {
+    height: 40px;
+}
